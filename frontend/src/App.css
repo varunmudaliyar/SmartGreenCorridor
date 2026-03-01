@@ -1,0 +1,621 @@
+/* ============================================================================
+   GLOBAL RESET
+   ============================================================================ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ============================================================================
+   MAIN APP CONTAINER
+   ============================================================================ */
+.App {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* ============================================================================
+   HEADER
+   ============================================================================ */
+.App-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 15px 25px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+  z-index: 100;
+}
+
+.App-header h1 {
+  font-size: 26px;
+  margin-bottom: 12px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+/* ============================================================================
+   STATUS BAR
+   ============================================================================ */
+.status-bar {
+  display: flex;
+  gap: 15px;
+  font-size: 14px;
+  flex-wrap: wrap;
+}
+
+.status-bar span {
+  padding: 6px 16px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  font-weight: 500;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.status-bar span:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: translateY(-1px);
+}
+
+.status-running {
+  background: rgba(16, 185, 129, 0.4) !important;
+  box-shadow: 0 0 10px rgba(16, 185, 129, 0.3);
+}
+
+.status-stopped {
+  background: rgba(239, 68, 68, 0.4) !important;
+  box-shadow: 0 0 10px rgba(239, 68, 68, 0.3);
+}
+
+.waiting {
+  animation: pulse 1.5s ease-in-out infinite;
+  background: rgba(251, 191, 36, 0.4) !important;
+}
+
+@keyframes pulse {
+  0%, 100% { 
+    opacity: 1; 
+    transform: scale(1);
+  }
+  50% { 
+    opacity: 0.7; 
+    transform: scale(0.98);
+  }
+}
+
+/* ============================================================================
+   MAIN CONTAINER
+   ============================================================================ */
+.main-container {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+  background: #f8f9fa;
+}
+
+/* ============================================================================
+   CONTROL PANEL
+   ============================================================================ */
+.control-panel {
+  width: 320px;
+  background: #f5f7fa;
+  padding: 20px;
+  overflow-y: auto;
+  border-right: 2px solid #e2e8f0;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.control-panel::-webkit-scrollbar {
+  width: 8px;
+}
+
+.control-panel::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.control-panel::-webkit-scrollbar-thumb {
+  background: #cbd5e0;
+  border-radius: 4px;
+}
+
+.control-panel::-webkit-scrollbar-thumb:hover {
+  background: #a0aec0;
+}
+
+.control-panel h2 {
+  font-size: 20px;
+  margin-bottom: 18px;
+  color: #2d3748;
+  font-weight: 700;
+}
+
+.control-section {
+  background: white;
+  padding: 18px;
+  border-radius: 10px;
+  margin-bottom: 18px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e2e8f0;
+  transition: all 0.3s ease;
+}
+
+.control-section:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  transform: translateY(-2px);
+}
+
+.control-section h3 {
+  font-size: 15px;
+  margin-bottom: 12px;
+  color: #4a5568;
+  font-weight: 600;
+}
+
+/* ============================================================================
+   FORM ELEMENTS
+   ============================================================================ */
+.form-group {
+  margin-bottom: 14px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 13px;
+  margin-bottom: 6px;
+  color: #4a5568;
+  font-weight: 600;
+}
+
+.form-group select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 2px solid #e2e8f0;
+  border-radius: 6px;
+  font-size: 14px;
+  background: white;
+  color: #2d3748;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.form-group select:hover {
+  border-color: #cbd5e0;
+}
+
+.form-group select:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+/* ============================================================================
+   MODE SELECTOR
+   ============================================================================ */
+.mode-selector {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.mode-button {
+  flex: 1;
+  padding: 12px 8px;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  background: white;
+  cursor: pointer;
+  font-size: 12px;
+  text-align: center;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.mode-button:hover {
+  border-color: #cbd5e0;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mode-button.active {
+  border-color: #667eea;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+/* ============================================================================
+   BUTTONS
+   ============================================================================ */
+.btn {
+  width: 100%;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #5568d3 0%, #653a8e 100%);
+}
+
+.btn-success {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  color: white;
+}
+
+.btn-success:hover {
+  background: linear-gradient(135deg, #059669 0%, #047857 100%);
+}
+
+.btn-danger {
+  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+  color: white;
+}
+
+.btn-danger:hover {
+  background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+/* ============================================================================
+   MAP CONTAINER
+   ============================================================================ */
+.map-container {
+  flex: 1;
+  position: relative;
+  background: #e5e7eb;
+}
+
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+  background: #f0f4f8;
+}
+
+/* ============================================================================
+   AMBULANCE LIST
+   ============================================================================ */
+.ambulance-list {
+  width: 280px;
+  background: #f5f7fa;
+  padding: 20px;
+  overflow-y: auto;
+  border-left: 2px solid #e2e8f0;
+  box-shadow: -2px 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.ambulance-list::-webkit-scrollbar {
+  width: 8px;
+}
+
+.ambulance-list::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.ambulance-list::-webkit-scrollbar-thumb {
+  background: #cbd5e0;
+  border-radius: 4px;
+}
+
+.ambulance-list::-webkit-scrollbar-thumb:hover {
+  background: #a0aec0;
+}
+
+.ambulance-list h2 {
+  font-size: 20px;
+  margin-bottom: 18px;
+  color: #2d3748;
+  font-weight: 700;
+}
+
+/* ============================================================================
+   AMBULANCE CARDS
+   ============================================================================ */
+.ambulance-card {
+  background: white;
+  padding: 14px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e2e8f0;
+  transition: all 0.3s ease;
+}
+
+.ambulance-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  transform: translateX(-3px);
+}
+
+.ambulance-card.normal {
+  border-left: 5px solid #ef4444;
+}
+
+.ambulance-card.green_corridor {
+  border-left: 5px solid #10b981;
+  background: linear-gradient(to right, rgba(16, 185, 129, 0.05), white);
+}
+
+.ambulance-card h4 {
+  font-size: 13px;
+  margin-bottom: 10px;
+  color: #2d3748;
+  font-weight: 700;
+}
+
+.ambulance-card .progress-bar {
+  height: 8px;
+  background: #e5e7eb;
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 10px 0;
+}
+
+.ambulance-card .progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  transition: width 0.5s ease;
+  border-radius: 4px;
+}
+
+.ambulance-card .info {
+  font-size: 11px;
+  color: #6b7280;
+  margin-top: 6px;
+  line-height: 1.6;
+}
+
+.no-ambulances {
+  text-align: center;
+  color: #9ca3af;
+  font-size: 14px;
+  padding: 40px 20px;
+  font-style: italic;
+}
+
+/* ============================================================================
+   TRAFFIC SIGNALS - STABLE (NO JUMPING)
+   ============================================================================ */
+.traffic-signal-dot {
+  cursor: pointer;
+  transition: fill 0.3s ease, transform 0.2s ease;
+}
+
+.traffic-signal-dot:hover {
+  transform: scale(1.25);
+  z-index: 1000;
+}
+
+/* Smooth color transitions for all Leaflet interactive elements */
+.leaflet-interactive {
+  transition: fill 0.3s ease;
+}
+
+/* ============================================================================
+   LEAFLET POPUP CUSTOMIZATION
+   ============================================================================ */
+.leaflet-popup-content-wrapper {
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.leaflet-popup-content {
+  margin: 12px;
+  font-family: inherit;
+}
+
+/* ============================================================================
+   RESPONSIVE DESIGN
+   ============================================================================ */
+@media (max-width: 1200px) {
+  .control-panel {
+    width: 280px;
+  }
+  
+  .ambulance-list {
+    width: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-container {
+    flex-direction: column;
+  }
+  
+  .control-panel,
+  .ambulance-list {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #e2e8f0;
+    max-height: 200px;
+  }
+  
+  .map-container {
+    flex: 1;
+  }
+  
+  .status-bar {
+    gap: 8px;
+    font-size: 12px;
+  }
+  
+  .status-bar span {
+    padding: 4px 10px;
+  }
+}
+
+/* ============================================================================
+   LOADING ANIMATION
+   ============================================================================ */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.loading-spinner {
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid #667eea;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin: 20px auto;
+}
+
+/* ============================================================================
+   UTILITY CLASSES
+   ============================================================================ */
+.text-center {
+  text-align: center;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* ============================================================================
+   AMBULANCE ICON STYLING
+   ============================================================================ */
+.ambulance-icon {
+  background: transparent !important;
+  border: none !important;
+  animation: ambulance-pulse 2s ease-in-out infinite;
+}
+
+@keyframes ambulance-pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.9;
+  }
+}
+
+/* Hover effect for ambulance icons */
+.ambulance-icon:hover {
+  animation: none;
+  transform: scale(1.2) !important;
+  z-index: 1000;
+}
+/* Ambulance pulse animation */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 0.6;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    opacity: 0.2;
+    transform: translate(-50%, -50%) scale(1.3);
+  }
+}
+
+/* Prevent default leaflet icon styles */
+.custom-ambulance-icon,
+.custom-vehicle-icon {
+  background: transparent !important;
+  border: none !important;
+}
+/* Ambulance pulse animation */
+@keyframes ambulance-pulse {
+  0%, 100% {
+    opacity: 0.6;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    opacity: 0.2;
+    transform: translate(-50%, -50%) scale(1.3);
+  }
+}
+
+/* Prevent default leaflet styles on custom icons */
+.custom-ambulance-icon {
+  background: transparent !important;
+  border: none !important;
+}
+/* Waiting state spinner */
+.spinner-icon {
+  width: 14px;
+  height: 14px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  display: inline-block;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Ambulance pulse animation */
+@keyframes ambulance-pulse {
+  0%, 100% {
+    opacity: 0.6;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    opacity: 0.2;
+    transform: translate(-50%, -50%) scale(1.3);
+  }
+}
+
+/* Custom ambulance icon */
+.custom-ambulance-icon {
+  background: transparent !important;
+  border: none !important;
+}

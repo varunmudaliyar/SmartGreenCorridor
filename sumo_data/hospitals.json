@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Emergency Medical Center A",
+    "type": "emergency",
+    "lat": 19.10941908181714,
+    "lon": 72.85717011071894,
+    "nearest_edge": "-1009561552",
+    "sumo_x": 4155.050000000687,
+    "sumo_y": 1160.870000001043,
+    "is_dummy": true
+  },
+  {
+    "id": 2,
+    "name": "Emergency Medical Center B",
+    "type": "emergency",
+    "lat": 19.110527969753466,
+    "lon": 72.83402115562774,
+    "nearest_edge": "-202565715",
+    "sumo_x": 1720.3800000001793,
+    "sumo_y": 1313.6399999996647,
+    "is_dummy": true
+  },
+  {
+    "id": 3,
+    "name": "Emergency Medical Center C",
+    "type": "emergency",
+    "lat": 19.11319975026636,
+    "lon": 72.8260845605703,
+    "nearest_edge": "-73042194#5",
+    "sumo_x": 888.8099999998813,
+    "sumo_y": 1619.7999999998137,
+    "is_dummy": true
+  },
+  {
+    "id": 4,
+    "name": "Emergency Medical Center D",
+    "type": "emergency",
+    "lat": 19.11520127765689,
+    "lon": 72.83985983667273,
+    "nearest_edge": "1187220670#0",
+    "sumo_x": 2341.230000000214,
+    "sumo_y": 1823.429999999702,
+    "is_dummy": true
+  },
+  {
+    "id": 5,
+    "name": "Emergency Medical Center E",
+    "type": "emergency",
+    "lat": 19.10858464858603,
+    "lon": 72.8443231084295,
+    "nearest_edge": "181613140#7",
+    "sumo_x": 2801.8999999997322,
+    "sumo_y": 1085.1000000000931,
+    "is_dummy": true
+  },
+  {
+    "id": 6,
+    "name": "Emergency Medical Center F",
+    "type": "emergency",
+    "lat": 19.107783014561505,
+    "lon": 72.86115394256252,
+    "nearest_edge": "474211363#3",
+    "sumo_x": 4572.090000000375,
+    "sumo_y": 974.609999999404,
+    "is_dummy": true
+  }
+]

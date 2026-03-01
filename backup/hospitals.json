@@ -1,0 +1,363 @@
+[
+  {
+    "id": 1,
+    "name": "Jevan Vikas Hospital",
+    "lat": 19.1106501,
+    "lon": 72.8483274,
+    "nearest_edge": null
+  },
+  {
+    "id": 2,
+    "name": "Sujay Hospital",
+    "lat": 19.116234,
+    "lon": 72.8339632,
+    "nearest_edge": "183286143#2",
+    "sumo_x": 850.6644468848826,
+    "sumo_y": 1137.4899011347443
+  },
+  {
+    "id": 3,
+    "name": "gr8 smile dental clinic",
+    "lat": 19.1068191,
+    "lon": 72.8507443,
+    "nearest_edge": null
+  },
+  {
+    "id": 4,
+    "name": "Bellevue Multispeciality Hospital",
+    "lat": 19.1289988,
+    "lon": 72.8316764,
+    "nearest_edge": "988680596",
+    "sumo_x": 627.5392968655797,
+    "sumo_y": 2553.6880768686533
+  },
+  {
+    "id": 5,
+    "name": "Nutan Mammography and Sonography Centre",
+    "lat": 19.1140839,
+    "lon": 72.8417197,
+    "nearest_edge": null
+  },
+  {
+    "id": 6,
+    "name": "Bharatiya Arogya Nidhi Sheth Kantilal C. Parikh General Hospital",
+    "lat": 19.1117839,
+    "lon": 72.8283425,
+    "nearest_edge": null
+  },
+  {
+    "id": 7,
+    "name": "Sangita Maternity Surgical and Diagnostic Centre",
+    "lat": 19.1181601,
+    "lon": 72.844288,
+    "nearest_edge": null
+  },
+  {
+    "id": 8,
+    "name": "Prime Orthopedic Speciality Hospital, Mumbai",
+    "lat": 19.1284312,
+    "lon": 72.8468965,
+    "nearest_edge": "1122281530",
+    "sumo_x": 2228.340701691457,
+    "sumo_y": 2471.0467372736894
+  },
+  {
+    "id": 9,
+    "name": "Centre For Sight, Juhu",
+    "lat": 19.1129534,
+    "lon": 72.8379245,
+    "nearest_edge": "1188585297#1",
+    "sumo_x": 1263.04547209898,
+    "sumo_y": 769.1309540313669
+  },
+  {
+    "id": 10,
+    "name": "Siddhivinayak Surgical Centre",
+    "lat": 19.1274074,
+    "lon": 72.8314617,
+    "nearest_edge": "988472901",
+    "sumo_x": 602.7606595450779,
+    "sumo_y": 2377.781315200031
+  },
+  {
+    "id": 11,
+    "name": "Sujata Medicare (Sujata Gyanaecology Clinic);Dhake Colony",
+    "lat": 19.127861,
+    "lon": 72.8333795,
+    "nearest_edge": null
+  },
+  {
+    "id": 12,
+    "name": "Criticare Multispeciality Hospital and Research Centre",
+    "lat": 19.1156879,
+    "lon": 72.8353295,
+    "nearest_edge": "183286143#2",
+    "sumo_x": 993.7000270888675,
+    "sumo_y": 1075.2498576492071
+  },
+  {
+    "id": 13,
+    "name": "Dr Telangs Dhanvantari Hospital",
+    "lat": 19.1188723,
+    "lon": 72.8433318,
+    "nearest_edge": null
+  },
+  {
+    "id": 14,
+    "name": "Dr.Sakhalkar's Maternity and Nursing Home",
+    "lat": 19.1244488,
+    "lon": 72.8611457,
+    "nearest_edge": null
+  },
+  {
+    "id": 15,
+    "name": "Patil Hospital, Mumbai",
+    "lat": 19.1235929,
+    "lon": 72.8423361,
+    "nearest_edge": null
+  },
+  {
+    "id": 16,
+    "name": "Oculus Eye Hospital Pvt. Ltd",
+    "lat": 19.114371,
+    "lon": 72.8334123,
+    "nearest_edge": null
+  },
+  {
+    "id": 17,
+    "name": "Dr. Pareeks Deafness Clinic and Ent Hospital - andheri",
+    "lat": 19.1288557,
+    "lon": 72.8294756,
+    "nearest_edge": "988680596",
+    "sumo_x": 395.7564289259608,
+    "sumo_y": 2540.720029961318
+  },
+  {
+    "id": 18,
+    "name": "Dr. Vaidya Eye Hospital",
+    "lat": 19.1273593,
+    "lon": 72.8315811,
+    "nearest_edge": "988472901",
+    "sumo_x": 615.2589438874274,
+    "sumo_y": 2372.300177678
+  },
+  {
+    "id": 19,
+    "name": "Vibha Maternity and Surgical Nursing Home",
+    "lat": 19.1169678,
+    "lon": 72.8443725,
+    "nearest_edge": "1252345992",
+    "sumo_x": 1947.0966283649905,
+    "sumo_y": 1205.19391001435
+  },
+  {
+    "id": 20,
+    "name": "Sehgal Path Lab",
+    "lat": 19.1291496,
+    "lon": 72.825176,
+    "nearest_edge": "988680597",
+    "sumo_x": -56.278726253833156,
+    "sumo_y": 2578.8832731703296
+  },
+  {
+    "id": 21,
+    "name": "Doctor Eye Hospital",
+    "lat": 19.1148073,
+    "lon": 72.8432044,
+    "nearest_edge": "183286152",
+    "sumo_x": 1821.2215382318245,
+    "sumo_y": 967.5180961741135
+  },
+  {
+    "id": 22,
+    "name": "Sunita Hospital, Mumbai",
+    "lat": 19.1292206,
+    "lon": 72.8601158,
+    "nearest_edge": null
+  },
+  {
+    "id": 23,
+    "name": "Shakuntala Memorial Surgical Childerns and General Hospital",
+    "lat": 19.1277787,
+    "lon": 72.8625767,
+    "nearest_edge": null
+  },
+  {
+    "id": 24,
+    "name": "Dr. Joshi Surgical and Maternity Hospital",
+    "lat": 19.1126049,
+    "lon": 72.8425607,
+    "nearest_edge": null
+  },
+  {
+    "id": 25,
+    "name": "Saurabh Clinic Dr.Sanjanwalas Maternity and Gynacologist",
+    "lat": 19.1096181,
+    "lon": 72.8489169,
+    "nearest_edge": null
+  },
+  {
+    "id": 26,
+    "name": "Indu Maternity and Surgical Nursing Home",
+    "lat": 19.127861,
+    "lon": 72.8624144,
+    "nearest_edge": null
+  },
+  {
+    "id": 27,
+    "name": "Bses Mg Hospital (Managed By)Brahma Kumari Global Hospital and Res Center",
+    "lat": 19.119331,
+    "lon": 72.845019,
+    "nearest_edge": null
+  },
+  {
+    "id": 28,
+    "name": "Eva Medicare Center - andheri",
+    "lat": 19.1274049,
+    "lon": 72.8313719,
+    "nearest_edge": "988472901",
+    "sumo_x": 593.307651329611,
+    "sumo_y": 2377.621785227675
+  },
+  {
+    "id": 29,
+    "name": "Nityanand Iccu and Nursing Home",
+    "lat": 19.1074601,
+    "lon": 72.8484213,
+    "nearest_edge": null
+  },
+  {
+    "id": 30,
+    "name": "Life Care Iccu , Medical and Surgical Emergencies",
+    "lat": 19.1095535,
+    "lon": 72.8376684,
+    "nearest_edge": "73036341#1",
+    "sumo_x": 1231.4408424166031,
+    "sumo_y": 393.05619220389053
+  },
+  {
+    "id": 31,
+    "name": "Akanksha Maternity and Surgical Hospital",
+    "lat": 19.1285722,
+    "lon": 72.8269772,
+    "nearest_edge": "988680597",
+    "sumo_x": 132.46361318579875,
+    "sumo_y": 2512.6002294877544
+  },
+  {
+    "id": 32,
+    "name": "Sadanand Danait Hospital",
+    "lat": 19.1107257,
+    "lon": 72.8483811,
+    "nearest_edge": null
+  },
+  {
+    "id": 33,
+    "name": "Dr Sanjay Soni Dental Clinic",
+    "lat": 19.1069165,
+    "lon": 72.8356406,
+    "nearest_edge": "1124062596",
+    "sumo_x": 1014.4229580336832,
+    "sumo_y": 103.74896344076842
+  },
+  {
+    "id": 34,
+    "name": "Parijat Surgical and General Hospital",
+    "lat": 19.1284059,
+    "lon": 72.832253,
+    "nearest_edge": "988472901",
+    "sumo_x": 687.399588541477,
+    "sumo_y": 2487.2942334143445
+  },
+  {
+    "id": 35,
+    "name": "Iris Eye Center",
+    "lat": 19.1069728,
+    "lon": 72.8358773,
+    "nearest_edge": "1124062596",
+    "sumo_x": 1039.4108095207484,
+    "sumo_y": 109.67386858584359
+  },
+  {
+    "id": 36,
+    "name": "Goel Hospital",
+    "lat": 19.1100591,
+    "lon": 72.8642115,
+    "nearest_edge": "183286150",
+    "sumo_x": 4025.5033242809586,
+    "sumo_y": 414.7141661574133
+  },
+  {
+    "id": 37,
+    "name": "V N Shirodkar Hospital",
+    "lat": 19.1054569,
+    "lon": 72.8518587,
+    "nearest_edge": null
+  },
+  {
+    "id": 38,
+    "name": "Lotus Eye Hospital",
+    "lat": 19.10982,
+    "lon": 72.82763,
+    "nearest_edge": null
+  },
+  {
+    "id": 39,
+    "name": "CritiCare Hospital",
+    "lat": 19.1180803,
+    "lon": 72.8505516,
+    "nearest_edge": "83337269",
+    "sumo_x": 2598.8673004874727,
+    "sumo_y": 1320.3552706832998
+  },
+  {
+    "id": 40,
+    "name": "Dr. Sanjanwala Hospital",
+    "lat": 19.1054972,
+    "lon": 72.8481238,
+    "nearest_edge": null
+  },
+  {
+    "id": 41,
+    "name": "Hajari Hospital",
+    "lat": 19.129543,
+    "lon": 72.853012,
+    "nearest_edge": null
+  },
+  {
+    "id": 42,
+    "name": "CritiCare Hospital",
+    "lat": 19.1172807,
+    "lon": 72.8504612,
+    "nearest_edge": "83337269",
+    "sumo_x": 2588.265929146204,
+    "sumo_y": 1231.9478537491523
+  },
+  {
+    "id": 43,
+    "name": "KLS Memorial Hospital",
+    "lat": 19.1079187,
+    "lon": 72.8408635,
+    "nearest_edge": "1092139662#1",
+    "sumo_x": 1565.4593477104208,
+    "sumo_y": 207.91205647494644
+  },
+  {
+    "id": 44,
+    "name": "Auro Skin Clinic",
+    "lat": 19.1059731,
+    "lon": 72.8414741,
+    "nearest_edge": "1092139662#1",
+    "sumo_x": 1627.0619370550266,
+    "sumo_y": -8.280648173298687
+  },
+  {
+    "id": 45,
+    "name": "goel hospital",
+    "lat": 19.1100931,
+    "lon": 72.8642165,
+    "nearest_edge": "183286150",
+    "sumo_x": 4026.075474017998,
+    "sumo_y": 418.47187965456396
+  }
+]

@@ -1,0 +1,1058 @@
+[
+  {
+    "id": 1,
+    "source_hospital": "Sujay Hospital",
+    "dest_hospital": "Criticare Multispeciality Hospital and Research Centre",
+    "source_id": 2,
+    "dest_id": 12,
+    "source_edge": "183286143#2",
+    "dest_edge": "183286143#2",
+    "edges": [
+      "183286143#2"
+    ],
+    "num_edges": 1,
+    "distance_m": 233.38,
+    "estimated_time_s": 8.4,
+    "estimated_time_min": 0.14,
+    "traffic_lights_count": 0,
+    "avg_speed_kmh": 100.01
+  },
+  {
+    "id": 2,
+    "source_hospital": "Bellevue Multispeciality Hospital",
+    "dest_hospital": "Siddhivinayak Surgical Centre",
+    "source_id": 4,
+    "dest_id": 10,
+    "source_edge": "988680596",
+    "dest_edge": "988472901",
+    "edges": [
+      "988680596",
+      "988472901"
+    ],
+    "num_edges": 2,
+    "distance_m": 1769.95,
+    "estimated_time_s": 63.71,
+    "estimated_time_min": 1.06,
+    "traffic_lights_count": 1,
+    "avg_speed_kmh": 100.01
+  },
+  {
+    "id": 3,
+    "source_hospital": "Bellevue Multispeciality Hospital",
+    "dest_hospital": "Dr. Pareeks Deafness Clinic and Ent Hospital - andheri",
+    "source_id": 4,
+    "dest_id": 17,
+    "source_edge": "988680596",
+    "dest_edge": "988680596",
+    "edges": [
+      "988680596"
+    ],
+    "num_edges": 1,
+    "distance_m": 574.1,
+    "estimated_time_s": 20.67,
+    "estimated_time_min": 0.34,
+    "traffic_lights_count": 1,
+    "avg_speed_kmh": 100.01
+  },
+  {
+    "id": 4,
+    "source_hospital": "Bellevue Multispeciality Hospital",
+    "dest_hospital": "Dr. Vaidya Eye Hospital",
+    "source_id": 4,
+    "dest_id": 18,
+    "source_edge": "988680596",
+    "dest_edge": "988472901",
+    "edges": [
+      "988680596",
+      "988472901"
+    ],
+    "num_edges": 2,
+    "distance_m": 1769.95,
+    "estimated_time_s": 63.71,
+    "estimated_time_min": 1.06,
+    "traffic_lights_count": 1,
+    "avg_speed_kmh": 100.01
+  },
+  {
+    "id": 5,
+    "source_hospital": "Bellevue Multispeciality Hospital",
+    "dest_hospital": "Sehgal Path Lab",
+    "source_id": 4,
+    "dest_id": 20,
+    "source_edge": "988680596",
+    "dest_edge": "988680597",
+    "edges": [
+      "988680596",
+      "988680597"
+    ],
+    "num_edges": 2,
+    "distance_m": 1148.22,
+    "estimated_time_s": 41.33,
+    "estimated_time_min": 0.69,
+    "traffic_lights_count": 2,
+    "avg_speed_kmh": 100.01
+  },
+  {
+    "id": 6,
+    "source_hospital": "Bellevue Multispeciality Hospital",
+    "dest_hospital": "Eva Medicare Center - andheri",
+    "source_id": 4,
+    "dest_id": 28,
+    "source_edge": "988680596",
+    "dest_edge": "988472901",
+    "edges": [
+      "988680596",
+      "988472901"
+    ],
+    "num_edges": 2,
+    "distance_m": 1769.95,
+    "estimated_time_s": 63.71,
+    "estimated_time_min": 1.06,
+    "traffic_lights_count": 1,
+    "avg_speed_kmh": 100.01
+  },
+  {
+    "id": 7,
+    "source_hospital": "Bellevue Multispeciality Hospital",
+    "dest_hospital": "Akanksha Maternity and Surgical Hospital",
+    "source_id": 4,
+    "dest_id": 31,
+    "source_edge": "988680596",
+    "dest_edge": "988680597",
+    "edges": [
+      "988680596",
+      "988680597"
+    ],
+    "num_edges": 2,
+    "distance_m": 1148.22,
+    "estimated_time_s": 41.33,
+    "estimated_time_min": 0.69,
+    "traffic_lights_count": 2,
+    "avg_speed_kmh": 100.01
+  },
+  {
+    "id": 8,
+    "source_hospital": "Bellevue Multispeciality Hospital",
+    "dest_hospital": "Parijat Surgical and General Hospital",
+    "source_id": 4,
+    "dest_id": 34,
+    "source_edge": "988680596",
+    "dest_edge": "988472901",
+    "edges": [
+      "988680596",
+      "988472901"
+    ],
+    "num_edges": 2,
+    "distance_m": 1769.95,
+    "estimated_time_s": 63.71,
+    "estimated_time_min": 1.06,
+    "traffic_lights_count": 1,
+    "avg_speed_kmh": 100.01
+  },
+  {
+    "id": 9,
+    "source_hospital": "Centre For Sight, Juhu",
+    "dest_hospital": "Sujay Hospital",
+    "source_id": 9,
+    "dest_id": 2,
+    "source_edge": "1188585297#1",
+    "dest_edge": "183286143#2",
+    "edges": [
+      "1188585297#1",
+      "202565742#0",
+      "73048161#1",
+      "183286143#2"
+    ],
+    "num_edges": 4,
+    "distance_m": 791.31,
+    "estimated_time_s": 29.99,
+    "estimated_time_min": 0.5,
+    "traffic_lights_count": 3,
+    "avg_speed_kmh": 95.0
+  },
+  {
+    "id": 10,
+    "source_hospital": "Centre For Sight, Juhu",
+    "dest_hospital": "Criticare Multispeciality Hospital and Research Centre",
+    "source_id": 9,
+    "dest_id": 12,
+    "source_edge": "1188585297#1",
+    "dest_edge": "183286143#2",
+    "edges": [
+      "1188585297#1",
+      "202565742#0",
+      "73048161#1",
+      "183286143#2"
+    ],
+    "num_edges": 4,
+    "distance_m": 791.31,
+    "estimated_time_s": 29.99,
+    "estimated_time_min": 0.5,
+    "traffic_lights_count": 3,
+    "avg_speed_kmh": 95.0
+  },
+  {
+    "id": 11,
+    "source_hospital": "Siddhivinayak Surgical Centre",
+    "dest_hospital": "Dr. Vaidya Eye Hospital",
+    "source_id": 10,
+    "dest_id": 18,
+    "source_edge": "988472901",
+    "dest_edge": "988472901",
+    "edges": [
+      "988472901"
+    ],
+    "num_edges": 1,
+    "distance_m": 1195.85,
+    "estimated_time_s": 43.05,
+    "estimated_time_min": 0.72,
+    "traffic_lights_count": 0,
+    "avg_speed_kmh": 100.01
+  },
+  {
+    "id": 12,
+    "source_hospital": "Siddhivinayak Surgical Centre",
+    "dest_hospital": "Eva Medicare Center - andheri",
+    "source_id": 10,
+    "dest_id": 28,
+    "source_edge": "988472901",
+    "dest_edge": "988472901",
+    "edges": [
+      "988472901"
+    ],
+    "num_edges": 1,
+    "distance_m": 1195.85,
+    "estimated_time_s": 43.05,
+    "estimated_time_min": 0.72,
+    "traffic_lights_count": 0,
+    "avg_speed_kmh": 100.01
+  },
+  {
+    "id": 13,
+    "source_hospital": "Siddhivinayak Surgical Centre",
+    "dest_hospital": "Parijat Surgical and General Hospital",
+    "source_id": 10,
+    "dest_id": 34,
+    "source_edge": "988472901",
+    "dest_edge": "988472901",
+    "edges": [
+      "988472901"
+    ],
+    "num_edges": 1,
+    "distance_m": 1195.85,
+    "estimated_time_s": 43.05,
+    "estimated_time_min": 0.72,
+    "traffic_lights_count": 0,
+    "avg_speed_kmh": 100.01
+  },
+  {
+    "id": 14,
+    "source_hospital": "Criticare Multispeciality Hospital and Research Centre",
+    "dest_hospital": "Sujay Hospital",
+    "source_id": 12,
+    "dest_id": 2,
+    "source_edge": "183286143#2",
+    "dest_edge": "183286143#2",
+    "edges": [
+      "183286143#2"
+    ],
+    "num_edges": 1,
+    "distance_m": 233.38,
+    "estimated_time_s": 8.4,
+    "estimated_time_min": 0.14,
+    "traffic_lights_count": 0,
+    "avg_speed_kmh": 100.01
+  },
+  {
+    "id": 15,
+    "source_hospital": "Dr. Pareeks Deafness Clinic and Ent Hospital - andheri",
+    "dest_hospital": "Bellevue Multispeciality Hospital",
+    "source_id": 17,
+    "dest_id": 4,
+    "source_edge": "988680596",
+    "dest_edge": "988680596",
+    "edges": [
+      "988680596"
+    ],
+    "num_edges": 1,
+    "distance_m": 574.1,
+    "estimated_time_s": 20.67,
+    "estimated_time_min": 0.34,
+    "traffic_lights_count": 1,
+    "avg_speed_kmh": 100.01
+  },
+  {
+    "id": 16,
+    "source_hospital": "Dr. Pareeks Deafness Clinic and Ent Hospital - andheri",
+    "dest_hospital": "Siddhivinayak Surgical Centre",
+    "source_id": 17,
+    "dest_id": 10,
+    "source_edge": "988680596",
+    "dest_edge": "988472901",
+    "edges": [
+      "988680596",
+      "988472901"
+    ],
+    "num_edges": 2,
+    "distance_m": 1769.95,
+    "estimated_time_s": 63.71,
+    "estimated_time_min": 1.06,
+    "traffic_lights_count": 1,
+    "avg_speed_kmh": 100.01
+  },
+  {
+    "id": 17,
+    "source_hospital": "Dr. Pareeks Deafness Clinic and Ent Hospital - andheri",
+    "dest_hospital": "Dr. Vaidya Eye Hospital",
+    "source_id": 17,
+    "dest_id": 18,
+    "source_edge": "988680596",
+    "dest_edge": "988472901",
+    "edges": [
+      "988680596",
+      "988472901"
+    ],
+    "num_edges": 2,
+    "distance_m": 1769.95,
+    "estimated_time_s": 63.71,
+    "estimated_time_min": 1.06,
+    "traffic_lights_count": 1,
+    "avg_speed_kmh": 100.01
+  },
+  {
+    "id": 18,
+    "source_hospital": "Dr. Pareeks Deafness Clinic and Ent Hospital - andheri",
+    "dest_hospital": "Sehgal Path Lab",
+    "source_id": 17,
+    "dest_id": 20,
+    "source_edge": "988680596",
+    "dest_edge": "988680597",
+    "edges": [
+      "988680596",
+      "988680597"
+    ],
+    "num_edges": 2,
+    "distance_m": 1148.22,
+    "estimated_time_s": 41.33,
+    "estimated_time_min": 0.69,
+    "traffic_lights_count": 2,
+    "avg_speed_kmh": 100.01
+  },
+  {
+    "id": 19,
+    "source_hospital": "Dr. Pareeks Deafness Clinic and Ent Hospital - andheri",
+    "dest_hospital": "Eva Medicare Center - andheri",
+    "source_id": 17,
+    "dest_id": 28,
+    "source_edge": "988680596",
+    "dest_edge": "988472901",
+    "edges": [
+      "988680596",
+      "988472901"
+    ],
+    "num_edges": 2,
+    "distance_m": 1769.95,
+    "estimated_time_s": 63.71,
+    "estimated_time_min": 1.06,
+    "traffic_lights_count": 1,
+    "avg_speed_kmh": 100.01
+  },
+  {
+    "id": 20,
+    "source_hospital": "Dr. Pareeks Deafness Clinic and Ent Hospital - andheri",
+    "dest_hospital": "Akanksha Maternity and Surgical Hospital",
+    "source_id": 17,
+    "dest_id": 31,
+    "source_edge": "988680596",
+    "dest_edge": "988680597",
+    "edges": [
+      "988680596",
+      "988680597"
+    ],
+    "num_edges": 2,
+    "distance_m": 1148.22,
+    "estimated_time_s": 41.33,
+    "estimated_time_min": 0.69,
+    "traffic_lights_count": 2,
+    "avg_speed_kmh": 100.01
+  },
+  {
+    "id": 21,
+    "source_hospital": "Dr. Pareeks Deafness Clinic and Ent Hospital - andheri",
+    "dest_hospital": "Parijat Surgical and General Hospital",
+    "source_id": 17,
+    "dest_id": 34,
+    "source_edge": "988680596",
+    "dest_edge": "988472901",
+    "edges": [
+      "988680596",
+      "988472901"
+    ],
+    "num_edges": 2,
+    "distance_m": 1769.95,
+    "estimated_time_s": 63.71,
+    "estimated_time_min": 1.06,
+    "traffic_lights_count": 1,
+    "avg_speed_kmh": 100.01
+  },
+  {
+    "id": 22,
+    "source_hospital": "Dr. Vaidya Eye Hospital",
+    "dest_hospital": "Siddhivinayak Surgical Centre",
+    "source_id": 18,
+    "dest_id": 10,
+    "source_edge": "988472901",
+    "dest_edge": "988472901",
+    "edges": [
+      "988472901"
+    ],
+    "num_edges": 1,
+    "distance_m": 1195.85,
+    "estimated_time_s": 43.05,
+    "estimated_time_min": 0.72,
+    "traffic_lights_count": 0,
+    "avg_speed_kmh": 100.01
+  },
+  {
+    "id": 23,
+    "source_hospital": "Dr. Vaidya Eye Hospital",
+    "dest_hospital": "Eva Medicare Center - andheri",
+    "source_id": 18,
+    "dest_id": 28,
+    "source_edge": "988472901",
+    "dest_edge": "988472901",
+    "edges": [
+      "988472901"
+    ],
+    "num_edges": 1,
+    "distance_m": 1195.85,
+    "estimated_time_s": 43.05,
+    "estimated_time_min": 0.72,
+    "traffic_lights_count": 0,
+    "avg_speed_kmh": 100.01
+  },
+  {
+    "id": 24,
+    "source_hospital": "Dr. Vaidya Eye Hospital",
+    "dest_hospital": "Parijat Surgical and General Hospital",
+    "source_id": 18,
+    "dest_id": 34,
+    "source_edge": "988472901",
+    "dest_edge": "988472901",
+    "edges": [
+      "988472901"
+    ],
+    "num_edges": 1,
+    "distance_m": 1195.85,
+    "estimated_time_s": 43.05,
+    "estimated_time_min": 0.72,
+    "traffic_lights_count": 0,
+    "avg_speed_kmh": 100.01
+  },
+  {
+    "id": 25,
+    "source_hospital": "Vibha Maternity and Surgical Nursing Home",
+    "dest_hospital": "Doctor Eye Hospital",
+    "source_id": 19,
+    "dest_id": 21,
+    "source_edge": "1252345992",
+    "dest_edge": "183286152",
+    "edges": [
+      "1252345992",
+      "183286152"
+    ],
+    "num_edges": 2,
+    "distance_m": 5.25,
+    "estimated_time_s": 0.21,
+    "estimated_time_min": 0.0,
+    "traffic_lights_count": 2,
+    "avg_speed_kmh": 90.0
+  },
+  {
+    "id": 26,
+    "source_hospital": "Sehgal Path Lab",
+    "dest_hospital": "Bellevue Multispeciality Hospital",
+    "source_id": 20,
+    "dest_id": 4,
+    "source_edge": "988680597",
+    "dest_edge": "988680596",
+    "edges": [
+      "988680597",
+      "988680596"
+    ],
+    "num_edges": 2,
+    "distance_m": 1148.22,
+    "estimated_time_s": 41.33,
+    "estimated_time_min": 0.69,
+    "traffic_lights_count": 2,
+    "avg_speed_kmh": 100.01
+  },
+  {
+    "id": 27,
+    "source_hospital": "Sehgal Path Lab",
+    "dest_hospital": "Siddhivinayak Surgical Centre",
+    "source_id": 20,
+    "dest_id": 10,
+    "source_edge": "988680597",
+    "dest_edge": "988472901",
+    "edges": [
+      "988680597",
+      "988680596",
+      "988472901"
+    ],
+    "num_edges": 3,
+    "distance_m": 2344.07,
+    "estimated_time_s": 84.38,
+    "estimated_time_min": 1.41,
+    "traffic_lights_count": 2,
+    "avg_speed_kmh": 100.01
+  },
+  {
+    "id": 28,
+    "source_hospital": "Sehgal Path Lab",
+    "dest_hospital": "Dr. Pareeks Deafness Clinic and Ent Hospital - andheri",
+    "source_id": 20,
+    "dest_id": 17,
+    "source_edge": "988680597",
+    "dest_edge": "988680596",
+    "edges": [
+      "988680597",
+      "988680596"
+    ],
+    "num_edges": 2,
+    "distance_m": 1148.22,
+    "estimated_time_s": 41.33,
+    "estimated_time_min": 0.69,
+    "traffic_lights_count": 2,
+    "avg_speed_kmh": 100.01
+  },
+  {
+    "id": 29,
+    "source_hospital": "Sehgal Path Lab",
+    "dest_hospital": "Dr. Vaidya Eye Hospital",
+    "source_id": 20,
+    "dest_id": 18,
+    "source_edge": "988680597",
+    "dest_edge": "988472901",
+    "edges": [
+      "988680597",
+      "988680596",
+      "988472901"
+    ],
+    "num_edges": 3,
+    "distance_m": 2344.07,
+    "estimated_time_s": 84.38,
+    "estimated_time_min": 1.41,
+    "traffic_lights_count": 2,
+    "avg_speed_kmh": 100.01
+  },
+  {
+    "id": 30,
+    "source_hospital": "Sehgal Path Lab",
+    "dest_hospital": "Eva Medicare Center - andheri",
+    "source_id": 20,
+    "dest_id": 28,
+    "source_edge": "988680597",
+    "dest_edge": "988472901",
+    "edges": [
+      "988680597",
+      "988680596",
+      "988472901"
+    ],
+    "num_edges": 3,
+    "distance_m": 2344.07,
+    "estimated_time_s": 84.38,
+    "estimated_time_min": 1.41,
+    "traffic_lights_count": 2,
+    "avg_speed_kmh": 100.01
+  },
+  {
+    "id": 31,
+    "source_hospital": "Sehgal Path Lab",
+    "dest_hospital": "Akanksha Maternity and Surgical Hospital",
+    "source_id": 20,
+    "dest_id": 31,
+    "source_edge": "988680597",
+    "dest_edge": "988680597",
+    "edges": [
+      "988680597"
+    ],
+    "num_edges": 1,
+    "distance_m": 574.12,
+    "estimated_time_s": 20.67,
+    "estimated_time_min": 0.34,
+    "traffic_lights_count": 1,
+    "avg_speed_kmh": 100.01
+  },
+  {
+    "id": 32,
+    "source_hospital": "Sehgal Path Lab",
+    "dest_hospital": "Parijat Surgical and General Hospital",
+    "source_id": 20,
+    "dest_id": 34,
+    "source_edge": "988680597",
+    "dest_edge": "988472901",
+    "edges": [
+      "988680597",
+      "988680596",
+      "988472901"
+    ],
+    "num_edges": 3,
+    "distance_m": 2344.07,
+    "estimated_time_s": 84.38,
+    "estimated_time_min": 1.41,
+    "traffic_lights_count": 2,
+    "avg_speed_kmh": 100.01
+  },
+  {
+    "id": 33,
+    "source_hospital": "Doctor Eye Hospital",
+    "dest_hospital": "Vibha Maternity and Surgical Nursing Home",
+    "source_id": 21,
+    "dest_id": 19,
+    "source_edge": "183286152",
+    "dest_edge": "1252345992",
+    "edges": [
+      "183286152",
+      "202565682",
+      "49131844",
+      "1252345992"
+    ],
+    "num_edges": 4,
+    "distance_m": 10.0,
+    "estimated_time_s": 0.38,
+    "estimated_time_min": 0.01,
+    "traffic_lights_count": 4,
+    "avg_speed_kmh": 95.0
+  },
+  {
+    "id": 34,
+    "source_hospital": "Eva Medicare Center - andheri",
+    "dest_hospital": "Siddhivinayak Surgical Centre",
+    "source_id": 28,
+    "dest_id": 10,
+    "source_edge": "988472901",
+    "dest_edge": "988472901",
+    "edges": [
+      "988472901"
+    ],
+    "num_edges": 1,
+    "distance_m": 1195.85,
+    "estimated_time_s": 43.05,
+    "estimated_time_min": 0.72,
+    "traffic_lights_count": 0,
+    "avg_speed_kmh": 100.01
+  },
+  {
+    "id": 35,
+    "source_hospital": "Eva Medicare Center - andheri",
+    "dest_hospital": "Dr. Vaidya Eye Hospital",
+    "source_id": 28,
+    "dest_id": 18,
+    "source_edge": "988472901",
+    "dest_edge": "988472901",
+    "edges": [
+      "988472901"
+    ],
+    "num_edges": 1,
+    "distance_m": 1195.85,
+    "estimated_time_s": 43.05,
+    "estimated_time_min": 0.72,
+    "traffic_lights_count": 0,
+    "avg_speed_kmh": 100.01
+  },
+  {
+    "id": 36,
+    "source_hospital": "Eva Medicare Center - andheri",
+    "dest_hospital": "Parijat Surgical and General Hospital",
+    "source_id": 28,
+    "dest_id": 34,
+    "source_edge": "988472901",
+    "dest_edge": "988472901",
+    "edges": [
+      "988472901"
+    ],
+    "num_edges": 1,
+    "distance_m": 1195.85,
+    "estimated_time_s": 43.05,
+    "estimated_time_min": 0.72,
+    "traffic_lights_count": 0,
+    "avg_speed_kmh": 100.01
+  },
+  {
+    "id": 37,
+    "source_hospital": "Akanksha Maternity and Surgical Hospital",
+    "dest_hospital": "Bellevue Multispeciality Hospital",
+    "source_id": 31,
+    "dest_id": 4,
+    "source_edge": "988680597",
+    "dest_edge": "988680596",
+    "edges": [
+      "988680597",
+      "988680596"
+    ],
+    "num_edges": 2,
+    "distance_m": 1148.22,
+    "estimated_time_s": 41.33,
+    "estimated_time_min": 0.69,
+    "traffic_lights_count": 2,
+    "avg_speed_kmh": 100.01
+  },
+  {
+    "id": 38,
+    "source_hospital": "Akanksha Maternity and Surgical Hospital",
+    "dest_hospital": "Siddhivinayak Surgical Centre",
+    "source_id": 31,
+    "dest_id": 10,
+    "source_edge": "988680597",
+    "dest_edge": "988472901",
+    "edges": [
+      "988680597",
+      "988680596",
+      "988472901"
+    ],
+    "num_edges": 3,
+    "distance_m": 2344.07,
+    "estimated_time_s": 84.38,
+    "estimated_time_min": 1.41,
+    "traffic_lights_count": 2,
+    "avg_speed_kmh": 100.01
+  },
+  {
+    "id": 39,
+    "source_hospital": "Akanksha Maternity and Surgical Hospital",
+    "dest_hospital": "Dr. Pareeks Deafness Clinic and Ent Hospital - andheri",
+    "source_id": 31,
+    "dest_id": 17,
+    "source_edge": "988680597",
+    "dest_edge": "988680596",
+    "edges": [
+      "988680597",
+      "988680596"
+    ],
+    "num_edges": 2,
+    "distance_m": 1148.22,
+    "estimated_time_s": 41.33,
+    "estimated_time_min": 0.69,
+    "traffic_lights_count": 2,
+    "avg_speed_kmh": 100.01
+  },
+  {
+    "id": 40,
+    "source_hospital": "Akanksha Maternity and Surgical Hospital",
+    "dest_hospital": "Dr. Vaidya Eye Hospital",
+    "source_id": 31,
+    "dest_id": 18,
+    "source_edge": "988680597",
+    "dest_edge": "988472901",
+    "edges": [
+      "988680597",
+      "988680596",
+      "988472901"
+    ],
+    "num_edges": 3,
+    "distance_m": 2344.07,
+    "estimated_time_s": 84.38,
+    "estimated_time_min": 1.41,
+    "traffic_lights_count": 2,
+    "avg_speed_kmh": 100.01
+  },
+  {
+    "id": 41,
+    "source_hospital": "Akanksha Maternity and Surgical Hospital",
+    "dest_hospital": "Sehgal Path Lab",
+    "source_id": 31,
+    "dest_id": 20,
+    "source_edge": "988680597",
+    "dest_edge": "988680597",
+    "edges": [
+      "988680597"
+    ],
+    "num_edges": 1,
+    "distance_m": 574.12,
+    "estimated_time_s": 20.67,
+    "estimated_time_min": 0.34,
+    "traffic_lights_count": 1,
+    "avg_speed_kmh": 100.01
+  },
+  {
+    "id": 42,
+    "source_hospital": "Akanksha Maternity and Surgical Hospital",
+    "dest_hospital": "Eva Medicare Center - andheri",
+    "source_id": 31,
+    "dest_id": 28,
+    "source_edge": "988680597",
+    "dest_edge": "988472901",
+    "edges": [
+      "988680597",
+      "988680596",
+      "988472901"
+    ],
+    "num_edges": 3,
+    "distance_m": 2344.07,
+    "estimated_time_s": 84.38,
+    "estimated_time_min": 1.41,
+    "traffic_lights_count": 2,
+    "avg_speed_kmh": 100.01
+  },
+  {
+    "id": 43,
+    "source_hospital": "Akanksha Maternity and Surgical Hospital",
+    "dest_hospital": "Parijat Surgical and General Hospital",
+    "source_id": 31,
+    "dest_id": 34,
+    "source_edge": "988680597",
+    "dest_edge": "988472901",
+    "edges": [
+      "988680597",
+      "988680596",
+      "988472901"
+    ],
+    "num_edges": 3,
+    "distance_m": 2344.07,
+    "estimated_time_s": 84.38,
+    "estimated_time_min": 1.41,
+    "traffic_lights_count": 2,
+    "avg_speed_kmh": 100.01
+  },
+  {
+    "id": 44,
+    "source_hospital": "Dr Sanjay Soni Dental Clinic",
+    "dest_hospital": "Life Care Iccu , Medical and Surgical Emergencies",
+    "source_id": 33,
+    "dest_id": 30,
+    "source_edge": "1124062596",
+    "dest_edge": "73036341#1",
+    "edges": [
+      "1124062596",
+      "72878025#0",
+      "72878025#1",
+      "73036341#1"
+    ],
+    "num_edges": 4,
+    "distance_m": 970.51,
+    "estimated_time_s": 36.78,
+    "estimated_time_min": 0.61,
+    "traffic_lights_count": 4,
+    "avg_speed_kmh": 95.0
+  },
+  {
+    "id": 45,
+    "source_hospital": "Dr Sanjay Soni Dental Clinic",
+    "dest_hospital": "Iris Eye Center",
+    "source_id": 33,
+    "dest_id": 35,
+    "source_edge": "1124062596",
+    "dest_edge": "1124062596",
+    "edges": [
+      "1124062596"
+    ],
+    "num_edges": 1,
+    "distance_m": 706.42,
+    "estimated_time_s": 31.79,
+    "estimated_time_min": 0.53,
+    "traffic_lights_count": 1,
+    "avg_speed_kmh": 79.99
+  },
+  {
+    "id": 46,
+    "source_hospital": "Parijat Surgical and General Hospital",
+    "dest_hospital": "Siddhivinayak Surgical Centre",
+    "source_id": 34,
+    "dest_id": 10,
+    "source_edge": "988472901",
+    "dest_edge": "988472901",
+    "edges": [
+      "988472901"
+    ],
+    "num_edges": 1,
+    "distance_m": 1195.85,
+    "estimated_time_s": 43.05,
+    "estimated_time_min": 0.72,
+    "traffic_lights_count": 0,
+    "avg_speed_kmh": 100.01
+  },
+  {
+    "id": 47,
+    "source_hospital": "Parijat Surgical and General Hospital",
+    "dest_hospital": "Dr. Vaidya Eye Hospital",
+    "source_id": 34,
+    "dest_id": 18,
+    "source_edge": "988472901",
+    "dest_edge": "988472901",
+    "edges": [
+      "988472901"
+    ],
+    "num_edges": 1,
+    "distance_m": 1195.85,
+    "estimated_time_s": 43.05,
+    "estimated_time_min": 0.72,
+    "traffic_lights_count": 0,
+    "avg_speed_kmh": 100.01
+  },
+  {
+    "id": 48,
+    "source_hospital": "Parijat Surgical and General Hospital",
+    "dest_hospital": "Eva Medicare Center - andheri",
+    "source_id": 34,
+    "dest_id": 28,
+    "source_edge": "988472901",
+    "dest_edge": "988472901",
+    "edges": [
+      "988472901"
+    ],
+    "num_edges": 1,
+    "distance_m": 1195.85,
+    "estimated_time_s": 43.05,
+    "estimated_time_min": 0.72,
+    "traffic_lights_count": 0,
+    "avg_speed_kmh": 100.01
+  },
+  {
+    "id": 49,
+    "source_hospital": "Iris Eye Center",
+    "dest_hospital": "Life Care Iccu , Medical and Surgical Emergencies",
+    "source_id": 35,
+    "dest_id": 30,
+    "source_edge": "1124062596",
+    "dest_edge": "73036341#1",
+    "edges": [
+      "1124062596",
+      "72878025#0",
+      "72878025#1",
+      "73036341#1"
+    ],
+    "num_edges": 4,
+    "distance_m": 970.51,
+    "estimated_time_s": 36.78,
+    "estimated_time_min": 0.61,
+    "traffic_lights_count": 4,
+    "avg_speed_kmh": 95.0
+  },
+  {
+    "id": 50,
+    "source_hospital": "Iris Eye Center",
+    "dest_hospital": "Dr Sanjay Soni Dental Clinic",
+    "source_id": 35,
+    "dest_id": 33,
+    "source_edge": "1124062596",
+    "dest_edge": "1124062596",
+    "edges": [
+      "1124062596"
+    ],
+    "num_edges": 1,
+    "distance_m": 706.42,
+    "estimated_time_s": 31.79,
+    "estimated_time_min": 0.53,
+    "traffic_lights_count": 1,
+    "avg_speed_kmh": 79.99
+  },
+  {
+    "id": 51,
+    "source_hospital": "Goel Hospital",
+    "dest_hospital": "goel hospital",
+    "source_id": 36,
+    "dest_id": 45,
+    "source_edge": "183286150",
+    "dest_edge": "183286150",
+    "edges": [
+      "183286150"
+    ],
+    "num_edges": 1,
+    "distance_m": 426.22,
+    "estimated_time_s": 15.34,
+    "estimated_time_min": 0.26,
+    "traffic_lights_count": 1,
+    "avg_speed_kmh": 100.01
+  },
+  {
+    "id": 52,
+    "source_hospital": "CritiCare Hospital",
+    "dest_hospital": "CritiCare Hospital",
+    "source_id": 39,
+    "dest_id": 42,
+    "source_edge": "83337269",
+    "dest_edge": "83337269",
+    "edges": [
+      "83337269"
+    ],
+    "num_edges": 1,
+    "distance_m": 13.26,
+    "estimated_time_s": 0.95,
+    "estimated_time_min": 0.02,
+    "traffic_lights_count": 1,
+    "avg_speed_kmh": 50.0
+  },
+  {
+    "id": 53,
+    "source_hospital": "CritiCare Hospital",
+    "dest_hospital": "CritiCare Hospital",
+    "source_id": 42,
+    "dest_id": 39,
+    "source_edge": "83337269",
+    "dest_edge": "83337269",
+    "edges": [
+      "83337269"
+    ],
+    "num_edges": 1,
+    "distance_m": 13.26,
+    "estimated_time_s": 0.95,
+    "estimated_time_min": 0.02,
+    "traffic_lights_count": 1,
+    "avg_speed_kmh": 50.0
+  },
+  {
+    "id": 54,
+    "source_hospital": "KLS Memorial Hospital",
+    "dest_hospital": "Auro Skin Clinic",
+    "source_id": 43,
+    "dest_id": 44,
+    "source_edge": "1092139662#1",
+    "dest_edge": "1092139662#1",
+    "edges": [
+      "1092139662#1"
+    ],
+    "num_edges": 1,
+    "distance_m": 228.6,
+    "estimated_time_s": 8.23,
+    "estimated_time_min": 0.14,
+    "traffic_lights_count": 1,
+    "avg_speed_kmh": 100.01
+  },
+  {
+    "id": 55,
+    "source_hospital": "Auro Skin Clinic",
+    "dest_hospital": "KLS Memorial Hospital",
+    "source_id": 44,
+    "dest_id": 43,
+    "source_edge": "1092139662#1",
+    "dest_edge": "1092139662#1",
+    "edges": [
+      "1092139662#1"
+    ],
+    "num_edges": 1,
+    "distance_m": 228.6,
+    "estimated_time_s": 8.23,
+    "estimated_time_min": 0.14,
+    "traffic_lights_count": 1,
+    "avg_speed_kmh": 100.01
+  },
+  {
+    "id": 56,
+    "source_hospital": "goel hospital",
+    "dest_hospital": "Goel Hospital",
+    "source_id": 45,
+    "dest_id": 36,
+    "source_edge": "183286150",
+    "dest_edge": "183286150",
+    "edges": [
+      "183286150"
+    ],
+    "num_edges": 1,
+    "distance_m": 426.22,
+    "estimated_time_s": 15.34,
+    "estimated_time_min": 0.26,
+    "traffic_lights_count": 1,
+    "avg_speed_kmh": 100.01
+  }
+]
